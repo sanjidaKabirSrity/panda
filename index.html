@@ -34,16 +34,16 @@
             </form>
             <ul class="navbar-nav mb-2 mb-lg-0 ms-lg-5">
               <li class="nav-item m-auto">
-                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link active" href="index.html">Home</a>
               </li>
               <li class="nav-item m-auto">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item m-auto">
-                <a class="nav-link" href="#">Backpack</a>
+                <a class="nav-link" href="#backpacks">Backpack</a>
               </li>
               <li class="nav-item m-auto">
-                <a class="nav-link" href="#">Subscribe</a>
+                <a class="nav-link" href="#subscribe">Subscribe</a>
               </li>
             </ul>
             
@@ -64,7 +64,7 @@
                     <h1 class="fw-bold" id="slideh1">Cool Dude headphone</h1>
                     <p>This is the best headphone in the world for people who just want to waste time in front of funcky world</p>
                     <h2 id="price">$420</h2>
-                    <button type="button" class="btn">Buy Now</button>
+                    <button type="button" class="btn">Buy Now<i class="fas fa-angle-right ms-2"></i></button>
                 </div>
                 <div class="col-lg-5">
                     <img src="images/banner-images/headphone.png" class="d-block img-fluid">
@@ -77,7 +77,7 @@
                     <h1 class="fw-bold" id="slideh1">Mega LCD TV For Support</h1>
                     <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
                     <h2 id="price">$1200</h2>
-                    <button type="button" class="btn">Buy Now</button>
+                    <button type="button" class="btn">Buy Now<i class="fas fa-angle-right ms-2"></i></button>
                 </div>
                 <div class="col-lg-5">
                     <img src="images/banner-images/tv.png" class="d-block img-fluid">
@@ -90,7 +90,7 @@
                     <h1 class="fw-bold" id="slideh1">X-Box for your living room</h1>
                     <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
                     <h2 id="price">$600</h2>
-                    <button type="button" class="btn">Buy Now
+                    <button type="button" class="btn">Buy Now<i class="fas fa-angle-right ms-2"></i>
                     </button>
                 </div>
                 <div class="col-lg-5">
@@ -115,7 +115,7 @@
       <section>
         <div class="container p-0">
           
-          <div class="row g-5  my-5">
+          <div class="row g-4  my-5">
             <h3>Categories</h3>
             <div class="col-lg-4 col-12 col-md-6">
              <div class="d-flex justify-content-evenly
@@ -145,7 +145,7 @@
 
       <!-- Shoes Product Start -->
       <hr>
-      <section>
+      <section id="shoes">
         <div class="d-flex justify-content-between">
           <h3>Shoes</h3>
           <h4 id="seeAll">See All</h4>
@@ -160,7 +160,7 @@
                 <h4>$129</h4>
               </div>
               <div>
-                <button class="btn mb-3">Buy Now</button>
+                <button class="btn mb-3">Buy Now<i class="fas fa-angle-double-right ms-2"></i></button>
               </div>
             </div>
           </div>
@@ -173,7 +173,7 @@
                 <h4>$320</h4>
               </div>
               <div>
-                <button class="btn mb-3">Buy Now</button>
+                <button class="btn mb-3">Buy Now<i class="fas fa-angle-double-right ms-2"></i></button>
               </div>
             </div>
           </div>
@@ -186,7 +186,7 @@
                 <h4>$350</h4>
               </div>
               <div>
-                <button class="btn mb-3">Buy Now</button>
+                <button class="btn mb-3">Buy Now<i class="fas fa-angle-double-right ms-2"></i></button>
               </div>
             </div>
           </div>
@@ -195,7 +195,7 @@
       <!-- Shoes Product End -->
 
       <!-- bags Product start  -->
-      <section>
+      <section id="backpacks">
         <div class="d-flex justify-content-between">
           <h3>Backpack</h3>
           <h4 id="seeAll">See All</h4>
@@ -210,7 +210,7 @@
                 <h4>$1289</h4>
               </div>
               <div>
-                <button class="btn mb-3">Buy Now</button>
+                <button class="btn mb-3">Buy Now<i class="fas fa-angle-double-right ms-2"></i></button>
               </div>
             </div>
           </div>
@@ -223,7 +223,7 @@
                 <h4>$799</h4>
               </div>
               <div>
-                <button class="btn mb-3">Buy Now</button>
+                <button class="btn mb-3">Buy Now<i class="fas fa-angle-double-right ms-2"></i></button>
               </div>
             </div>
           </div>
@@ -236,7 +236,7 @@
                 <h4>$699</h4>
               </div>
               <div>
-                <button class="btn mb-3">Buy Now</button>
+                <button class="btn mb-3">Buy Now<i class="fas fa-angle-double-right ms-2"></i></button>
               </div>
             </div>
           </div>
@@ -247,21 +247,23 @@
   <!-- Main End -->
 
   <!-- footer start  -->
-  <footer>
+  <footer id="subscribe">
     <section class="e-form p-5 d-flex flex-column justify-content-center align-items-center">
       <div class="text-center">
         <h3>LET'S STAY IN TOUCH</h3>
         <P>Get updates on sales specials and more </P>
       </div>
-        <form class="form-e">
-          <div class="d-flex justify-content-center m-auto">
-            <input type="email" placeholder="Enter Your Email" id="exampleInputEmail1" aria-describedby="emailHelp" class="email form-control-lg border-0">
-            <div id="submit">
-              <button type="submit" class="btn">Submit</button>
-            </div>
-            </div>
+        
           
-        </form>
+          <div class="d-flex justify-content-center">
+            <form class="form-e">
+              <input type="email" placeholder="Enter Your Email" class="border-0 email-input">
+            </form>
+            <div id="submit">
+              <button type="submit" class="border-0 submit">Submit</button>
+            </div>
+          </div>
+          
       
     </section>
     <p><small>©2021. Panda Commerce. All rights reserved by Sanjida</small></p>
