@@ -56,10 +56,10 @@
   <main>
       <!-- Slider Section Start -->
       <section class="slider">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide mycaro" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="row d-flex p-5 align-items-center" style="background-color: #FCEAE8; overflow:hidden;">
+              <div class="row d-flex p-5 align-items-center">
                 <div class="col-lg-7">
                     <h1 class="fw-bold" id="slideh1">Cool Dude headphone</h1>
                     <p>This is the best headphone in the world for people who just want to waste time in front of funcky world</p>
@@ -67,12 +67,12 @@
                     <button type="button" class="btn">Buy Now</button>
                 </div>
                 <div class="col-lg-5">
-                    <img src="images/banner-images/headphone.png" class="d-block w-100">
+                    <img src="images/banner-images/headphone.png" class="d-block img-fluid">
                 </div>
             </div>
             </div>
             <div class="carousel-item">
-              <div class="row d-flex p-5 align-items-center" style="background-color: #FCEAE8;">
+              <div class="row d-flex p-5 align-items-center">
                 <div class="col-lg-7">
                     <h1 class="fw-bold" id="slideh1">Mega LCD TV For Support</h1>
                     <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
@@ -80,12 +80,12 @@
                     <button type="button" class="btn">Buy Now</button>
                 </div>
                 <div class="col-lg-5">
-                    <img src="images/banner-images/tv.png" class="d-block w-100">
+                    <img src="images/banner-images/tv.png" class="d-block img-fluid">
                 </div>
             </div>
             </div>
             <div class="carousel-item">
-              <div class="row d-flex p-5 align-items-center" style="background-color: #FCEAE8;">
+              <div class="row d-flex p-5 align-items-center">
                 <div class="col-lg-7">
                     <h1 class="fw-bold" id="slideh1">X-Box for your living room</h1>
                     <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
@@ -94,7 +94,7 @@
                     </button>
                 </div>
                 <div class="col-lg-5">
-                    <img src="images/banner-images/xbox.png" class="d-block w-100">
+                    <img src="images/banner-images/xbox.png" class="d-block img-fluid">
                 </div>
             </div>
             </div>
@@ -112,28 +112,30 @@
       <!-- Slider Section End -->
 
       <!-- Category Section Start -->
-      <section class="">
+      <section>
         <div class="container p-0">
-          <div class="row gx-5">
-            <div class="col-4 my-5">
+          
+          <div class="row g-5  my-5">
+            <h3>Categories</h3>
+            <div class="col-lg-4 col-12 col-md-6">
              <div class="d-flex justify-content-evenly
-             align-items-center py-2 rounded-3 text-white watch">
+             align-items-center py-2 text-white watch" id="catagory">
                <h1>Watch</h1>
-               <img src="images//categories/watch.png" alt="" width="100">
+               <img src="images//categories/watch.png" alt="" class="img-fluid">
              </div>
             </div>
-            <div class="col-4 my-5">
+            <div class="col-lg-4 col-12 col-md-6">
               <div class="d-flex justify-content-evenly
-              align-items-center py-2 rounded-3 text-white bag">
+              align-items-center py-2 text-white bag" id="catagory">
                 <h1>Bag</h1>
-                <img src="images//categories/bag.png" alt="" width="100">
+                <img src="images//categories/bag.png" alt="" class="img-fluid">
               </div>
              </div>
-             <div class="col-4 my-5">
+             <div class="col-lg-4 col-12 col-md-6">
               <div class="d-flex justify-content-evenly
-              align-items-center py-2 rounded-3 text-white shoe">
+              align-items-center py-2 text-white shoe" id="catagory">
                 <h1>Shoes</h1>
-                <img src="images//categories/shoes.png" alt="" width="100">
+                <img src="images//categories/shoes.png" alt="" class="img-fluid">
               </div>
              </div>
           </div>
@@ -142,56 +144,129 @@
       <!-- Category Section End -->
 
       <!-- Shoes Product Start -->
-      <section class="container">
-        <h3>Shoes</h3>
-        <div class="row row-cols-1 row-cols-md-3 gx-5">
-          <div class="col shadow-lg">
-            <div class="card h-100 border-0">
-              <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Supply 350</h5>
-                <p class="card-text">Ankit Export & Import - Offering White Men Adidas Yeezy Sply 350 Shoes at Rs 3000/box in Siliguri, West Bengal. </p>
-                <h5 class="card-title">$120
-                </h5>
+      <hr>
+      <section>
+        <div class="d-flex justify-content-between">
+          <h3>Shoes</h3>
+          <h4 id="seeAll">See All</h4>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-lg d-flex flex-column align-items-center myProduct">
+              <img src="images/shoes/shoe-1.png" class="card-img-top img-fluid" alt="shoe">
+              <div class="card-body text-center">
+                <h4 class="card-title myCardTitle">Supply 350</h4>
+                <p class="card-text">Ankit Export & Import - Offering White Men Adidas Yeezy Sply 350 Shoes at Rs 3000/box in Siliguri, West Bengal.</p>
+                <h4>$129</h4>
               </div>
-              <div class="card-footer border-0">
-                <button type="button" class="btn btn-danger">Buy Now</button>
+              <div>
+                <button class="btn mb-3">Buy Now</button>
               </div>
             </div>
           </div>
-          <div class="col shadow-lg">
-            <div class="card h-100 border-0">
-              <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Nike 360</h5>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-lg d-flex flex-column align-items-center myProduct">
+              <img src="images/shoes/shoe-2.png" class="card-img-top img-fluid" alt="shoe">
+              <div class="card-body text-center">
+                <h4 class="card-title myCardTitle">Nike 360</h4>
                 <p class="card-text">Find the Nike Air VaporMax 360 Men's Shoe at Nike.com. Free delivery and returns on select orders.</p>
-                <h5 class="card-title">$320
-                </h5>
+                <h4>$320</h4>
               </div>
-              <div class="card-footer border-0">
-                <button type="button" class="btn btn-danger">Buy Now</button>
+              <div>
+                <button class="btn mb-3">Buy Now</button>
               </div>
             </div>
           </div>
-          <div class="col shadow-lg">
-            <div class="card h-100 border-0">
-              <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Red Airmax</h5>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-lg d-flex flex-column align-items-center myProduct">
+              <img src="images/shoes/shoe-3.png" class="card-img-top img-fluid" alt="shoe">
+              <div class="card-body text-center">
+                <h4 class="card-title myCardTitle">Red Airmax</h4>
                 <p class="card-text">The shoes were released in the three original colors: red for the Air Max 90, green/yellow for the Air Max 95</p>
-                <h5 class="card-title">$350
-                </h5>
+                <h4>$350</h4>
               </div>
-              <div class="card-footer border-0">
-                <button type="button" class="btn btn-danger">Buy Now</button>
+              <div>
+                <button class="btn mb-3">Buy Now</button>
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- Shoes Product End -->
+
+      <!-- bags Product start  -->
+      <section>
+        <div class="d-flex justify-content-between">
+          <h3>Backpack</h3>
+          <h4 id="seeAll">See All</h4>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-lg d-flex flex-column align-items-center myProduct">
+              <img src="images/bags/bag-1.png" class="card-img-top img-fluid" alt="shoe">
+              <div class="card-body text-center">
+                <h4 class="card-title myCardTitle">Ison Backpack</h4>
+                <p class="card-text">The practical daypack is an ideal companion for urban folk who commute daily to the office or university. The Ison Backpack stays in shape with any filling</p>
+                <h4>$1289</h4>
+              </div>
+              <div>
+                <button class="btn mb-3">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-lg d-flex flex-column align-items-center myProduct">
+              <img src="images/bags/bag-2.png" class="card-img-top img-fluid" alt="shoe">
+              <div class="card-body text-center">
+                <h4 class="card-title myCardTitle">Biaowang Backpack</h4>
+                <p class="card-text">BIAOWANG Waterproof Design 15.6 Inch 25 L Laptop Backpack for School, College and Office with USB Charging Port (Black) · Material: Synthetic Fabric</p>
+                <h4>$799</h4>
+              </div>
+              <div>
+                <button class="btn mb-3">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-lg d-flex flex-column align-items-center myProduct">
+              <img src="images/bags/bag-3.png" class="card-img-top img-fluid" alt="shoe">
+              <div class="card-body text-center">
+                <h4 class="card-title myCardTitle">Dxyizu WS54 Smart</h4>
+                <p class="card-text">Description. Specification: Brand Dxyizu; Model WS54; Carrying System Arcuate Shoulder Strap; Capacity 18 Litre; Material Polyester Nylon Dxyizu WS54 Smart</p>
+                <h4>$699</h4>
+              </div>
+              <div>
+                <button class="btn mb-3">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- bags Product end   -->
   </main>
   <!-- Main End -->
+
+  <!-- footer start  -->
+  <footer>
+    <section class="e-form p-5 d-flex flex-column justify-content-center align-items-center">
+      <div class="text-center">
+        <h3>LET'S STAY IN TOUCH</h3>
+        <P>Get updates on sales specials and more </P>
+      </div>
+        <form class="form-e">
+          <div class="d-flex justify-content-center m-auto">
+            <input type="email" placeholder="Enter Your Email" id="exampleInputEmail1" aria-describedby="emailHelp" class="email form-control-lg border-0">
+            <div id="submit">
+              <button type="submit" class="btn">Submit</button>
+            </div>
+            </div>
+          
+        </form>
+      
+    </section>
+    <p><small>©2021. Panda Commerce. All rights reserved by Sanjida</small></p>
+  </footer>
+  <!-- footer end -->
     </div>
 
     <!-- Bootstrap JS -->

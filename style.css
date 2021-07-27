@@ -5,7 +5,10 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  
+
 }
+
 /* header end */
 .container-fluid {
   padding: 10px 40px;
@@ -28,9 +31,9 @@ input {
 /* header end */
 
 /* Slider Section Start */
-#carouselExampleControls {
-  border-radius: 50px !important;
-  border: 5px solid black;
+.mycaro {
+  border-radius: 15px;
+  background-color: #feeae9;
 }
 .slider {
   margin-top: 100px;
@@ -54,6 +57,14 @@ input {
 /* Slider Section end */
 
 /* Category Section Start */
+#catagory {
+  border-radius: 15px;
+}
+h3 {
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
 .watch {
   background-image: linear-gradient(#ff9c35, #ffd019);
 }
@@ -63,3 +74,49 @@ input {
 .shoe {
   background-image: linear-gradient(#4289ff, #3f07f8);
 }
+/* Category Section end  */
+
+/* Shoes Product start=bags Product start */
+hr {
+  margin: 50px 0px;
+}
+#seeAll {
+  color: #ff9c35;
+}
+.myProduct {
+  border-radius: 15px;
+}
+h4 {
+  font-weight: bold;
+  font-size: 25px;
+}
+p {
+  font-size: 15px;
+  color: rgb(87, 85, 85);
+}
+/* Shoes Product End=bags Product end */
+
+/* footer start  */
+.e-form {
+  background-color: #feeae9;
+  border-radius: 15px;
+  margin-bottom: 60px;
+}
+.form-e{
+  border-radius: 15px;
+  margin: auto;
+}
+.email {
+  margin: auto;
+  
+  
+}
+#submit{
+  background-color: #ff136f);;
+}
+small{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+/* footer end */
